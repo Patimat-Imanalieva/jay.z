@@ -1,0 +1,117 @@
+.h1 {
+  font-size: 30px;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, .8);
+}
+
+.now {
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.contenier {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+
+article h1, article h2, article h3, article h4, article p, article ul, article ol, article blockquote {
+  /* width: 700px; */
+  margin: 0 auto;
+}
+article h1, article h2, article h3 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+article h1 {
+  text-transform: uppercase;
+  margin-top: 42px;
+  font-size: 38px;
+  line-height: 45px;
+}
+article h1 + p {
+  margin-top: 8px;
+  font-family: 'PT Sans Caption',  sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0,0,0,.4);
+}
+article h1 + p + p {
+  margin-top: 30px;
+}
+article h2 {
+  text-transform: uppercase;
+  margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, .8);
+}
+article h2 + p,
+article h2 + blockquote {
+  margin-top: 30px;
+}
+article h3 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 28px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, .8);
+}
+article h3 + p,
+article h3 + blockquote {
+  margin-top: 20px;
+}
+article p, article blockquote, li {
+  margin-top: 14px;
+  font-size: 20px;
+  line-height: 34px;
+}
+article blockquote {
+  position: relative;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .8);
+}
+article blockquote::before {
+ content:"";
+ /* width: 3px; */
+ height: 100%;
+ background: black;
+ opacity: .8;
+ position: absolute;
+ top: 0;
+ left: -17px;
+}
+article img {
+  display: block;
+  /* width: 1020px; */
+  margin: 50px auto;
+}
+article img + h2 {
+  margin-top: 79px;
+}
+article img + p,
+article img + blockquote,
+article img + ul {
+  margin-top: 77px;
+}
+article h2 + img {
+  margin-top: 82px;
+}
+article h3 + img {
+  margin-top: 81px;
+}
+article ul {
+  list-style-type: disc;
+  font-weight: 600;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, .8);
+}
+article ol {
+  list-style-type: circle;
+}
+article a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .8);
+}
